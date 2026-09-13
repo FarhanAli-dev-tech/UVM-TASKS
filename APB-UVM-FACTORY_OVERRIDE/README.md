@@ -75,14 +75,7 @@ xrun -Q -unbuffered -timescale 1ns/1ns -sysv -access +rw \
 | `apb_test` | Baseline — only `[APB_DRV]` log lines |
 | `apb_test_override` | Factory override active — `[APB_DRV_SLOW]` log line appears before every `[APB_DRV]` line, proving the override took effect |
 
-## Signal / class flow
-
-*(drop your architecture diagram screenshot here)*
-
 ## Waveform result
+<img width="975" height="238" alt="image" src="https://github.com/user-attachments/assets/1c45af49-8616-418a-820a-4cefbf4d4b2a" />
 
-*(drop your waveform screenshot here)*
 
-## Labs completed
-- [x] Create APB transaction class (addr, data, read/write)
-- [x] Override a driver implementation using the factory
